@@ -57,7 +57,7 @@ export const projects = [
     ],
     category: "Full Stack",
     github: "https://github.com/sourav-Rk/inventory-management-api",
-    live: "https://blog-space-client.onrender.com/"
+    live: "https://inventory-management-client-g07d.onrender.com/login"
   },
 
   {
