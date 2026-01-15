@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-neon-bg text-neon-text font-sans selection:bg-neon-cyan selection:text-black;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00FFF5;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-[#0B0B0F]/60 backdrop-blur-md border border-white/5 rounded-xl;
+  }
+
+  .neon-button {
+    @apply px-6 py-3 rounded-md font-bold uppercase tracking-wider transition-all duration-300 relative overflow-hidden;
+  }
+
+  .neon-button-cyan {
+    @apply border border-neon-cyan text-neon-cyan hover:bg-neon-cyan hover:text-black;
+  }
+
+  .neon-button-cyan:hover {
+    box-shadow: 0 0 20px rgba(0, 255, 245, 0.6);
+  }
+
+  .neon-button-pink {
+    @apply border border-neon-pink text-neon-pink hover:bg-neon-pink hover:text-black;
+  }
+
+  .neon-button-pink:hover {
+    box-shadow: 0 0 20px rgba(255, 46, 234, 0.6);
+  }
+}
+
+.active-nav {
+  @apply bg-white/5 border-r-2 border-neon-cyan text-white;
+}
+
+.active-nav svg {
+  @apply text-neon-cyan;
+  filter: drop-shadow(0 0 8px rgba(0, 255, 245, 0.8));
+}
