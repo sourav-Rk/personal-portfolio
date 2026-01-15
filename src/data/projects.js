@@ -57,7 +57,7 @@ export const projects = [
     ],
     category: "Full Stack",
     github: "https://github.com/sourav-Rk/inventory-management-api",
-    live: "#"
+    live: "https://blog-space-client.onrender.com/"
   },
 
   {
@@ -74,7 +74,7 @@ export const projects = [
       "Service-Repository Pattern"
     ],
     category: "Full Stack",
-    github: "#",
-    live: "#"
+    github: "https://github.com/sourav-Rk/blog-space-api",
+    live: "https://blog-space-client.onrender.com/"
   }
 ];

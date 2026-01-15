@@ -15,7 +15,8 @@ export default {
         'neon-muted': '#8B8B8B',
       },
       fontFamily: {
-        'sans': ['Inter', 'sans-serif'], // We might need to import Inter
+        'sans': ['Inter', 'sans-serif'],
+          mono: ['JetBrains Mono', 'monospace'], // We might need to import Inter
       },
       boxShadow: {
         'neon-cyan': '0 0 10px #00FFF5, 0 0 20px #00FFF5',

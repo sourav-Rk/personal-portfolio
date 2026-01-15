@@ -47,7 +47,7 @@ const Hero = () => {
                     className="space-y-6"
                 >
                     <h2 className="text-neon-cyan text-xl font-mono">Hello, I am</h2>
-                    <h1 className="text-5xl md:text-7xl font-bold text-white tracking-tight">
+                    <h1 className="font-mono  text-5xl md:text-7xl font-bold text-white tracking-tight">
                         Sourav K
                     </h1>
                     <div className="text-2xl md:text-3xl text-neon-muted h-10">
