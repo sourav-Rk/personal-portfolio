@@ -10,7 +10,7 @@ export default {
         'neon-bg': '#050505',
         'neon-bg-secondary': '#0B0B0F',
         'neon-cyan': '#00FFF5',
-        'neon-pink': '#FF2EEA',
+        'neon-green': '#39FF14',
         'neon-text': '#EDEDED',
         'neon-muted': '#8B8B8B',
       },
@@ -20,7 +20,7 @@ export default {
       },
       boxShadow: {
         'neon-cyan': '0 0 10px #00FFF5, 0 0 20px #00FFF5',
-        'neon-pink': '0 0 10px #FF2EEA, 0 0 20px #FF2EEA',
+        'neon-green': '0 0 10px #39FF14, 0 0 20px #39FF14',
       }
     },
   },

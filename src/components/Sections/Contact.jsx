@@ -63,8 +63,8 @@ const Contact = () => {
                                 </div>
                             </a>
                             
-                             <a href="#" className="flex items-center gap-4 p-4 glass-card hover:border-neon-pink/50 transition-colors group">
-                                <div className="p-3 rounded-full bg-white/5 text-neon-pink group-hover:scale-110 transition-transform">
+                             <a href="#" className="flex items-center gap-4 p-4 glass-card hover:border-neon-green/50 transition-colors group">
+                                <div className="p-3 rounded-full bg-white/5 text-neon-green group-hover:scale-110 transition-transform">
                                     <FaLinkedin size={24} />
                                 </div>
                                 <div>
@@ -109,7 +109,7 @@ const Contact = () => {
                             type="submit" 
                             disabled={status === 'sending' || status === 'success'}
                             className={`w-full py-4 rounded-lg font-bold uppercase tracking-wider transition-all flex items-center justify-center gap-2
-                                ${status === 'success' ? 'bg-green-500 text-black' : 'bg-gradient-to-r from-neon-cyan to-neon-pink text-black hover:opacity-90'}
+                                ${status === 'success' ? 'bg-green-500 text-black' : 'bg-gradient-to-r from-neon-cyan to-neon-green text-black hover:opacity-90'}
                             `}
                         >
                             {status === 'sending' ? 'Sending...' : status === 'success' ? 'Message Sent!' : <><FaPaperPlane /> Send Message</>}

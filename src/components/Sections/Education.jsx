@@ -35,7 +35,7 @@ const Education = () => {
                    <h2 className="text-3xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-500">
                         Education
                     </h2>
-                    <div className="h-1 flex-1 bg-gradient-to-r from-neon-pink/50 to-transparent rounded-full"></div>
+                    <div className="h-1 flex-1 bg-gradient-to-r from-neon-green/50 to-transparent rounded-full"></div>
                 </div>
 
                 <div className="relative border-l-2 border-white/10 ml-4 md:ml-10 space-y-12">
@@ -46,7 +46,7 @@ const Education = () => {
                             
                             <div className="space-y-2">
                                 <span className="text-neon-cyan font-mono text-sm tracking-widest">{item.year}</span>
-                                <h3 className="text-xl md:text-2xl font-bold text-white group-hover:text-neon-pink transition-colors">{item.degree}</h3>
+                                <h3 className="text-xl md:text-2xl font-bold text-white group-hover:text-neon-green transition-colors">{item.degree}</h3>
                                 <div className="text-gray-400 font-medium">{item.school}</div>
                                 <p className="text-sm text-gray-500 max-w-2xl">{item.desc}</p>
                             </div>

@@ -51,7 +51,7 @@ const Hero = () => {
                         Sourav K
                     </h1>
                     <div className="text-2xl md:text-3xl text-neon-muted h-10">
-                        I am a <span className="text-neon-pink font-semibold">{displayText}</span>
+                        I am a <span className="text-neon-green font-semibold">{displayText}</span>
                         <span className="animate-pulse">|</span>
                     </div>
                     <p className="text-gray-400 max-w-lg leading-relaxed">
@@ -63,14 +63,14 @@ const Hero = () => {
                         <MovingBorderBtn href="/assets/Sourav-Resume.pdf" download>
                             <span className="flex items-center gap-2"><FaDownload /> Resume</span>
                         </MovingBorderBtn>
-                        <Link to="projects" smooth={true} offset={-50} className="neon-button neon-button-pink cursor-pointer">
+                        <Link to="projects" smooth={true} offset={-50} className="neon-button neon-button-green cursor-pointer">
                             View Projects
                         </Link>
                     </div>
 
                     <div className="flex gap-6 pt-6 text-2xl text-gray-400">
                         <a href="https://github.com/sourav-Rk" target="_blank" className="hover:text-neon-cyan transition-colors transform hover:scale-110"><FaGithub /></a>
-                        <a href="https://www.linkedin.com/in/sourav-k-developer/" target="_blank" className="hover:text-neon-pink transition-colors transform hover:scale-110"><FaLinkedin /></a>
+                        <a href="https://www.linkedin.com/in/sourav-k-developer/" target="_blank" className="hover:text-neon-green transition-colors transform hover:scale-110"><FaLinkedin /></a>
                         <a href="mailto:souravrk08@gmail.com" className="hover:text-white transition-colors transform hover:scale-110"><FaEnvelope /></a>
 
                     </div>

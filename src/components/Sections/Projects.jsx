@@ -23,7 +23,7 @@ const Projects = () => {
                    <h2 className="text-3xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-500">
                         Featured Projects
                     </h2>
-                    <div className="h-1 flex-1 bg-gradient-to-r from-neon-pink/50 to-transparent rounded-full"></div>
+                    <div className="h-1 flex-1 bg-gradient-to-r from-neon-green/50 to-transparent rounded-full"></div>
                 </div>
 
 
@@ -38,7 +38,7 @@ const Projects = () => {
                                 exit={{ opacity: 0, scale: 0.9 }}
                                 transition={{ duration: 0.3 }}
                                 key={project.id}
-                                className="glass-card overflow-hidden group hover:border-neon-pink/50 transition-all duration-500"
+                                className="glass-card overflow-hidden group hover:border-neon-green/50 transition-all duration-500"
                             >
                                 {/* Image */}
                                 <div className="h-48 overflow-hidden relative">
@@ -51,7 +51,7 @@ const Projects = () => {
                                     {/* Overlay Links */}
                                     <div className="absolute inset-0 z-20 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/60 backdrop-blur-sm">
                                         <a href={project.github} target='_blank' className="p-3 bg-white/10 rounded-full hover:bg-neon-cyan hover:text-black transition-colors"><FaGithub size={20} /></a>
-                                        <a href={project.live} target='_blank' className="p-3 bg-white/10 rounded-full hover:bg-neon-pink hover:text-black transition-colors"><FaExternalLinkAlt size={20} /></a>
+                                        <a href={project.live} target='_blank' className="p-3 bg-white/10 rounded-full hover:bg-neon-green hover:text-black transition-colors"><FaExternalLinkAlt size={20} /></a>
                                     </div>
                                 </div>
 

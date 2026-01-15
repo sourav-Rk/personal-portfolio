@@ -55,7 +55,7 @@ const SidebarComponent = () => {
     const sidebarContent = (
       <div className="flex flex-col h-full">
         <div className="mb-8 text-center">
-            <h1 className="text-3xl font-bold font-sans text-white tracking-widest uppercase">
+            <h1 className="text-3xl font-bold text-white tracking-widest uppercase">
                 Sourav<span className="text-neon-cyan"> .</span>
             </h1>
             <p className="text-sm text-neon-muted mt-2">Full Stack Developer</p>
@@ -85,7 +85,7 @@ const SidebarComponent = () => {
         </nav>
 
         <div className="mt-8 flex justify-center gap-4">
-            <a href="https://github.com/sourav-Rk" target="_blank" className="text-neon-muted hover:text-neon-pink text-xl transition-colors hover:drop-shadow-[0_0_5px_rgba(255,46,234,0.8)]"><FaGithub /></a>
+            <a href="https://github.com/sourav-Rk" target="_blank" className="text-neon-muted hover:text-neon-green text-xl transition-colors hover:drop-shadow-[0_0_5px_rgba(57,255,20,0.8)]"><FaGithub /></a>
             <a href="https://www.linkedin.com/in/sourav-k-developer/" target="_blank" className="text-neon-muted hover:text-neon-cyan text-xl transition-colors hover:drop-shadow-[0_0_5px_rgba(0,255,245,0.8)]"><FaLinkedin /></a>
         </div>
       </div>

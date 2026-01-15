@@ -14,7 +14,7 @@ const About = () => {
             icon: FaServer,
             title: "Backend Systems",
             desc: "Developing robust APIs and database architectures with Node.js and MongoDB.",
-            color: "text-neon-pink"
+            color: "text-neon-green"
         },
         {
             icon: FaLightbulb,
